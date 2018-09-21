@@ -54,7 +54,7 @@ console.log(id);
       topic : $("#topic").text(),
       adult : $("#adult").text(),
       text : $("#text").val().trim(),
-      user_id : currentUser.uid
+      // user_id : currentUser.uid
     }
 
     console.log("newSaved: ", newSaved)

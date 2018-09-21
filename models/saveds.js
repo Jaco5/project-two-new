@@ -6,7 +6,7 @@ module.exports = function(sequelize, DataTypes) {
     commercial : DataTypes.STRING,
     topic : DataTypes.STRING,
     adult : DataTypes.STRING,
-    user_ID : DataTypes.STRING,
+    // user_ID : DataTypes.STRING,
     text : DataTypes.TEXT
   });
   return saveds;
